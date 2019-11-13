@@ -13,6 +13,13 @@ Usage examples
 Insert an item into the cache. 
 
 ```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
+import StorageCache from 'js-storage-cache';
+
+const storageCache = new StorageCache();
+
+// Insert a string.
+storageCache.set('testKey', 'foo', 10);
+
+// Insert a object/array.
+storageCache.set('testKey', [{a: 'foo'}, {a: 'bee'}], 10);
 ```
