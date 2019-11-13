@@ -41,7 +41,7 @@ storageCache.removeKey('testKey');
 Documentation
 ------ 
 
-#### Cache data will always be saved to browser localStorage with key '__c_2df2a4ade2936ea5639c79d631a51a08'.
+#### Cache data will always be saved to browser localStorage.
 
 #### Every time the **get** method is executed, an expired key check is performed, and if any are found, the key is removed.
 
