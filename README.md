@@ -27,10 +27,6 @@ storageCache.set('testKey', [{a: 'foo'}, {a: 'bee'}], 5);
 Retrieve an item from the cache.
 
 ```javascript
-import StorageCache from 'js-storage-cache';
-
-const storageCache = new StorageCache();
-
 // Retrieve the item, if not found returns false.
 storageCache.get('testKey');
 ```
@@ -38,14 +34,12 @@ storageCache.get('testKey');
 Removes a key and its object from the cache.
 
 ```javascript
-import StorageCache from 'js-storage-cache';
-
-const storageCache = new StorageCache();
-
 // Remove the item if exists.
 storageCache.removeKey('testKey');
 ```
 
-Documentation
+Methods documentation
 ------ 
 
+* set(key, value, timeToExpire) - Inserts a value into the cache.
+dsadas
