@@ -41,5 +41,5 @@ storageCache.removeKey('testKey');
 Methods documentation
 ------ 
 
-* set(key, value, timeToExpire) - Inserts a value into the cache.
-dsadas
+* set(String key, Object value, int timeToExpire) - Inserts a value into the cache.
+* get(String key) - Returns an object from the cache.
