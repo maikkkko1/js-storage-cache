@@ -5,6 +5,8 @@
 Usage examples
 ------ 
 
+Insert an item into the cache. 
+
 ```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
