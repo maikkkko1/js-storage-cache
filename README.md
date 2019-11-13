@@ -5,7 +5,7 @@
 Installation
 ------ 
 
-npm install js-storage-cache@1.0.0
+npm install js-storage-cache@1.0.1
 
 Usage examples
 ------ 
