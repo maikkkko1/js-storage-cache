@@ -38,8 +38,16 @@ Removes a key and its object from the cache.
 storageCache.removeKey('testKey');
 ```
 
-Methods documentation
+Documentation
 ------ 
 
-* set(String key, Object value, int timeToExpire) - Inserts a value into the cache.
-* get(String key) - Returns an object from the cache.
+##### Cache data will always be saved to browser localStorage with key '__c_2df2a4ade2936ea5639c79d631a51a08'.
+
+* set(key, value, timeToExpire) - Inserts a value into the cache.
+* get(key) - Returns an object from the cache.
+* getKeys() - Returns the existing keys in the cache object.
+* isExpired(key) - Checks if the informed cache key is expired.
+* removeKey(key) - Removes a key and its object from the cache.
+* verifyExpiredKeys(key) - Checks if a key is expired, if it removes the key.
+* clear() - Removes all keys and objects from the cache.
+
